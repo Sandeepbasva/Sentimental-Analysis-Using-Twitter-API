@@ -1,0 +1,20 @@
+class Bottle:
+	def __init_textblob_(self):
+		self.color = "red"
+		self.type = "plastic"
+		self.dimensions = [2.5,5,10]
+	def getVolume(self):
+		volume = self.dimensions[0]*self.dimensions[1]*self.dimensions[2]
+		return volume
+
+bt = Bottle()
+print bt.getVolume()
+
+'''
+sudo pip install tweepy textblob matplotlib
+
+
+sandeepbasva@swecha.net
+
+
+'''
